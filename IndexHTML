@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MinitMe shopping</title>
+    <link rel="stylesheet" href="styles.css">
+   <!---- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+--->
+</head>
+<body>
+<div class="shaikh">
+<div class="header">
+    <div class="container">
+        <div class="novbar">
+           <div class="logo">
+              <a href="/index.html"><img src="/minitme.jpg" alt="shaikh" width="200"></a>
+          </div>
+          <nav>
+              <ul  id="menuItems">
+                 <li><a href="/index.html">HOME</a></li>
+                 <li><a href="">PRODUCTS</a></li>
+                 <li><a href="">ABOUT</a></li>
+                 <li><a href="">CONTACT</a></li>
+                 <li><a href="">ACCOUNT</a></li>
+              </ul>
+        </nav>
+        <div class="cartt">
+          <a href="/index.html"><img src="/cart.jpg" width="30px" height="30px"></a>
+            <span>0</span>
+            <a href=""> <img src="/menu.webp"  class="menu" onclick="menutogle()"></a>
+        </div>
+    </div>
+     
+     <div class="row" >
+        <div class="coll-2">
+            <h1> Quality Is Our <br> Priority !</h1>
+            <p>Eat your vegetables, have a positive outlook, be kind to people, <br>and smile.</p>
+            <a href="" class="btn">Explore Now ----</a>
+            <a href="----"></a>
+            <div class="video">
+                <!---<video width="320" height="240" autoplay muted loop rotate="50%">
+                    <source src="/washing.mp4" type="video/mp4">
+                    <source src="/washing.mp4" type="video/ogg">
+                  Your browser does not support the video tag.
+                  </video> --->
+            </div>
+        </div>
+        <div class="coll-2">
+            <img src="img.jpg" alt="ameer" width="600px" height="col-4">
+        </div>
+     </div>
+    </div>
+</div>
+
+<!--------featured categories---->
+<br> <br>
+<h2 class="items"> <center><b>-: <u>categories of items</u> :-</b> </center> </h2>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row" id="rowc">
+                <div class="col-2">
+                   <a href="vegitable.html"><img src="/vegitables.jpg" width="450" height="450"> </a> 
+                   <h3> <center>Vegitables </center></h3>
+                </div>
+
+                
+                <div class="col-2">
+                    <a href="fruits.html"><img src="fruits.jpg" width="450" height="450"></a>
+                    <h3><center>Fruits</center></h3>
+                </div>
+                <br> <br> <br>
+                <div class="col-2">
+                    <a href="dryfruits.html"><img src="/kirani.jpg" width="450" height="450"></a>
+                    <h3><center>Grocery</center></h3>
+                </div>
+                <div class="col-2">
+                  <a href="leaf.html">  <img src="/leafy-and-dryfruits.jpg"width="450" height="450"></a>
+                  <h3><center>Leafy and Dry-fruits</center></h3>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+     
+    <!--------featured Products---->
+
+    <div class="small-containner">
+        <h2 class= "title">  <u>-:Featured Products:-</u>
+        </h2>
+        <div class="row">
+            <div class="col-3">
+               <a href="/index.html">  <img src="/tomato.jpg"width="350" height="350"></a>
+                <h4><b>TOMATO</b></h4>
+                    <h3>RS : 20/KG</h3>
+                    <div class="cart">
+                        <a href="/index.html">Add to cart</a>
+                    </div>
+            </div>
+            <div class="col-3">
+                    <a href="/index.html"><img src="/onion.jpg"></a>
+                    <h4><b> ONION </b></h4>
+                        <h3>RS : 80/KG</h3>
+                        <div class="cart">
+                            <a href="/index.html">Add to cart</a>
+                        </div>
+            </div> 
+            <div class="col-3">
+                        <a href="/index.html"><img src="/chilly.jpg"></a>
+                        <h4><b>CHILLY</b></h4>
+                            <h3>RS : 50/KG</h3>
+                            <div class="cart">
+                                <a href="/index.html">Add to cart</a>
+                            </div>
+            </div>  
+            <div class="colll-4">
+                        <a href="/vegitable.html" class="btn">more +</a></div>
+                        <div class="col-3">
+                            <a href="/index.html"><img src="/mango.jpg"></a>
+                            <h4><b>MANGO</b></h4>
+                                <h3>RS : 80/KG</h3>
+                                <div class="cart">
+                                    <a href="/index.html">Add to cart</a>
+                                </div>
+            </div>
+        
+            <div class="col-3">
+                <a href="/index.html"><img src="/apple.jpg"></a>
+                <h4><b> APPLE </b></h4>
+                
+                    <h3>RS : 80/KG</h3>
+                    
+                    <div class="cart">
+                        <a href="/index.html">Add to cart</a>
+                    </div>
+            </div>
+            <div class="col-3">
+                <a href="/index.html"><img src="/graph.jpg"></a>
+                <h4><b> GRAPHE </b></h4>
+                
+                    <h3>RS : 80/KG</h3>
+                    <div class="cart">
+                        <a href="/index.html">Add to cart</a>
+                    </div>
+            </div>
+
+            <div class="colll-4">
+                <a href="fruits.html" class="btn">more +</a></div>
+
+         </div>
+    </div>
+    <!-------sign in --->
+    <div class="sign">
+        <form action=""></form>
+    </div>
+
+   <! --------footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Dowload our App</h3>
+                    <p>Dowload App for Anroid and ios mobile phone</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/minitme.jpg">
+                    <p>Our Goal is to provide you vigitables in your door step</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Usefull links</h3>
+                    <ul>
+                        <li>
+                            Coupons
+                        </li>
+                        <li>blog post</li>
+                        <li>Return policy </li>
+                        <li> Join affiliatelite</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>FOLLOW US ON </h3>
+                    <ul>
+                        <li> <a href="https://www.instagram.com/__shaikh_pix?igsh=a2R0aXVyb285eXFl">FACEBOOK</a>
+                           
+                        </li>
+                        <li><a href="https://www.instagram.com/__shaikh_pix?igsh=a2R0aXVyb285eXFl">INSTAGRAM</a> </li>
+                        <li> <a href="https://www.instagram.com/__shaikh_pix?igsh=a2R0aXVyb285eXFl">TWITER</a> </li>
+                        <li> <a href="https://www.instagram.com/__shaikh_pix?igsh=a2R0aXVyb285eXFl">YOUTUBE</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2025 - HANSUFM</p>
+        </div>
+    </div>
+    <script >
+        var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+        function menutogle(){
+            if(menuItems.style.maxHeight == "0px"){
+                menuItems.style.maxHeight = "200px";
+
+            }
+            else{
+                menuItems.style.maxHeight = "0px"''
+            }
+        }
+    </script>
+</div>
+</body>
+</html>
